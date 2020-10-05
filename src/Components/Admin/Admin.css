@@ -1,0 +1,49 @@
+.admin-header.row {
+    background: #fff;
+    padding: 20px 60px;
+}
+
+.panel-sidebar-wraper.col-md-3 {
+    background: #fff;
+}
+
+.panel-sidebar {
+    margin-top: 40px;
+    padding-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.panel-sidebar p {
+    cursor: pointer;
+}
+
+.panel-sidebar p:focus svg path {
+    fill: red !important;
+}
+
+.panel-sidebar svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+}
+
+
+
+.panel-sidebar {
+    color: #000;
+}
+
+.panel-sidebar p.active {
+    color: #0084ff;
+}
+
+.panel-sidebar svg path {
+    fill: #000;
+}
+
+.panel-sidebar p.active svg,
+.panel-sidebar p.active svg path {
+    fill: #0084ff;
+}

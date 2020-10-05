@@ -1,0 +1,41 @@
+.main-menu {
+    display: flex;
+    float: right;
+    padding: 5px 0px;
+    margin: 5px 0;
+}
+
+.menu-btns button {
+
+    padding: 10px 36px;
+}
+
+.menu-btns a {
+    margin-left: 12px;
+}
+
+.menu-btns button.btn.btn-primary {
+    background: #3f90fc;
+    border-color: #3f90fc;
+}
+
+.menu-btns button.btn.btn-secondary {
+    background: #434141;
+    border-color: #434141;
+}
+
+.links a {
+    color: #000;
+    padding: 12px 16px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 6px;
+}
+
+.user-name {
+    display: inline-block;
+    padding: 13px 15px;
+    font-weight: 800;
+    color: #000;
+}

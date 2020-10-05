@@ -1,0 +1,69 @@
+.login-form {
+    margin-top: 60px;
+}
+
+.api-login button {
+    width: 100%;
+    background: none;
+    border: none;
+}
+
+.login-form button {
+    background: none;
+    width: 100%;
+    border: 1px solid #c7c7c7;
+    padding: 12px 20px;
+    color: #000;
+    border-radius: 50px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 10px;
+    transition: all linear 0.15s;
+}
+
+.login-form button img {
+    max-width: 38px;
+    position: absolute;
+    left: 5px;
+    top: 5.5px;
+}
+
+.login-form button:active,
+.login-form button:focus {
+    outline: none;
+    border-color: #18a0fb;
+    color: #18a0fb;
+    /* transition: all linear 0.3s; */
+}
+
+.login-form form {
+    padding: 50px 60px;
+    border-radius: 8px;
+    border: 1px solid #ababab;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+}
+
+.volunteer-form .title,
+.login-form .title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 35px;
+    color: #000;
+}
+
+.login-form form p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.login-form form p span {
+    color: #3f90fc;
+    text-decoration: underline;
+    cursor: pointer;
+}
