@@ -10,13 +10,13 @@ const SingleEvent = (props) => {
   function random_item(items) {
     return colors[Math.floor(Math.random() * items.length)];
   }
-
+  const apiURL = 'https://young-ridge-25037.herokuapp.com';
   return (
     <>
-      <Col md={3}>
+      <Col md={6} lg={3}>
         <Link to={`/events/${_id}`}>
           <div className='singleEvnet'>
-            <img src={imageBanner} alt='' className='event-image' />
+            <img src={apiURL + imageBanner} alt='' className='event-image' />
             <h3
               className='title'
               style={{

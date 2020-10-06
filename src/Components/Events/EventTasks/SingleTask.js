@@ -3,11 +3,13 @@ import { Col } from 'react-bootstrap';
 
 const SingleTask = (props) => {
   const { imageBanner, event, date, _id } = props.task;
+  const apiURL = 'https://young-ridge-25037.herokuapp.com';
+
   return (
     <Col md={6}>
       <div className='single-task'>
         <div className='task-image'>
-          <img src={imageBanner} alt='' />
+          <img src={apiURL + imageBanner} alt='' />
         </div>
         <div className='task-content'>
           <h3>{event}</h3>

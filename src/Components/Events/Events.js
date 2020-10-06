@@ -6,6 +6,7 @@ const Events = () => {
   const [events, setEvents] = useState([]);
 
   useEffect(() => {
+    // fetch('http://localhost:5000/events')
     fetch('https://young-ridge-25037.herokuapp.com/events')
       .then((response) => response.json())
       .then((data) => setEvents(data));

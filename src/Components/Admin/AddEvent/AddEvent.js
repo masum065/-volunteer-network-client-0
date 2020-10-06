@@ -22,6 +22,7 @@ const AddEvent = () => {
       data.append('date', date);
       data.append('description', description);
 
+      // Axios.post('http://localhost:5000/upload', data)
       Axios.post('https://young-ridge-25037.herokuapp.com/upload', data)
         .then((res) => {
           setPostStatus({ success: 'Event Successfully Added', error: '' });

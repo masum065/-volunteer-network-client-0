@@ -14,7 +14,11 @@ const Admin = () => {
   return (
     <Container fluid>
       <Row className='admin-header'>
-        <AdminHeader />
+        <AdminHeader
+          sectionTitle={
+            volunteerListRoute ? 'Volunteer register list' : 'Add event'
+          }
+        />
       </Row>
       <Row>
         <Col className='panel-sidebar-wraper' md={3}>
