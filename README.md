@@ -1,10 +1,10 @@
 # Creative Agency
 
-### [Live Site](https://crative-agency-0.web.app/)
+### [Live Site](https://volunteer-network-0.web.app/)
 
 ## Features
 
--   Userscan subscribe/unsubscribe one or more events.
+-   Users can subscribe/unsubscribe one or more events.
 -   Anyone can volunteer with their own information.
 -   Admin will be able to see the information of the volunteers
     on the ordered service.
