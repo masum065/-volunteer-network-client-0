@@ -23,5 +23,3 @@
 -   Hroku
 
 **Backend Repo:** [Volunteer-Network](https://github.com/masum065/volunteer-network-server-0)
-
-**MY RESUME:** [resume-Of-Masum_Billah](https://rb.gy/fyoa14)
